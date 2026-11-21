@@ -1,0 +1,50 @@
+:root {
+  /* Cores */
+  --color-background: #f4f4f4;
+  --color-surface: #ffffff;
+  --color-text: #000000;
+  --color-text-muted: #595959;
+  --color-border: #000000;
+  --color-inverse-background: #000000;
+  --color-inverse-text: #ffffff;
+
+  /* Bordas */
+  --border-width: 3px;
+  --border: var(--border-width) solid var(--color-border);
+
+  /* Raios */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-pill: 999px;
+
+  /* Sombras */
+  --shadow-sm: 2px 2px 0 var(--color-border);
+  --shadow-md: 4px 4px 0 var(--color-border);
+
+  /* Espaçamento */
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-6: 1.5rem;
+  --space-8: 2rem;
+  --size-touch-target: 2.75rem;
+
+  /* Tipografia */
+  --font-sans: var(--font-geist-sans), system-ui, sans-serif;
+  --font-mono: var(--font-geist-mono), ui-monospace, monospace;
+  --text-sm: 0.875rem;
+  --text-md: 1rem;
+  --text-lg: 1.25rem;
+  --text-xl: 1.5rem;
+  --text-2xl: 2rem;
+  --weight-regular: 400;
+  --weight-bold: 700;
+  --weight-black: 800;
+  --leading-tight: 1.2;
+  --leading-normal: 1.6;
+
+  /* Foco */
+  --focus-outline: 3px solid var(--color-text);
+  --focus-offset: 3px;
+}
